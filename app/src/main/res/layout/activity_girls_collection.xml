@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    tools:context="com.example.hpuser.hairgallery.girlsCollection">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="97dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="7dp"
+        android:clickable="true"
+        android:text="Fixing"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:clickable="true"
+        android:text="Mohawk &amp; Side bang"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        android:layout_marginLeft="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Others"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView10"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.448" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="144dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:text="Curly-Crochet"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView6"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.93"
+        tools:layout_editor_absoluteX="202dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="85dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:text="Braids"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="154dp"
+        android:layout_height="148dp"
+        android:scaleType="fitXY"
+        android:onClick="braidsClick"
+        app:srcCompat="@drawable/samplebraids"
+        android:layout_marginLeft="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="48dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="167dp"
+        android:layout_height="154dp"
+        android:scaleType="fitXY"
+        android:onClick="curlyClicked"
+        app:srcCompat="@drawable/sample_curly_crochet"
+        android:layout_marginRight="7dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/imageView7"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="159dp"
+        android:layout_height="148dp"
+        android:scaleType="fitXY"
+        android:onClick="FixingClicked"
+        app:srcCompat="@drawable/sample_fixing"
+        android:layout_marginLeft="-23dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="163dp"
+        android:layout_height="151dp"
+        app:srcCompat="@drawable/sample_updobraids"
+        android:layout_marginRight="7dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="31dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintLeft_toRightOf="@+id/imageView9"
+        android:layout_marginLeft="8dp"
+        android:onClick="updoClicked"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="160dp"
+        android:layout_height="164dp"
+        android:scaleType="fitXY"
+        android:onClick="MohawlkGirlsClicked"
+        app:srcCompat="@drawable/sample_mohawk_sidebang"
+        android:layout_marginLeft="-12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="44dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="155dp"
+        android:layout_height="165dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/sample_others"
+        app:layout_constraintLeft_toRightOf="@+id/imageView11"
+        android:layout_marginLeft="8dp"
+        android:onClick="OtherClicekd"
+        android:layout_marginTop="36dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="119dp"
+        android:layout_height="34dp"
+        android:text="Updo-Braids"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:textColor="#000"
+        android:textStyle="italic|bold"
+        android:layout_marginRight="38dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView11"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginBottom="-3dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView10" />
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

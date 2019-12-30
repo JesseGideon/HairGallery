@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hpuser.hairgallery.CurlyCrocket"
+    tools:showIn="@layout/activity_curly_crocket">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView94"
+            android:layout_width="118dp"
+            android:layout_height="138dp"
+            android:scaleType="fitXY"
+            android:onClick="curly1Clicked"
+            app:srcCompat="@drawable/curly1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView95"
+            android:layout_width="109dp"
+            android:layout_height="134dp"
+            android:scaleType="fitXY"
+            android:onClick="curly2Clicked"
+            app:srcCompat="@drawable/curly2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="3dp"
+            app:layout_constraintLeft_toRightOf="@+id/imageView94"
+            android:layout_marginLeft="9dp" />
+
+        <ImageView
+            android:id="@+id/imageView96"
+            android:layout_width="126dp"
+            android:layout_height="136dp"
+            android:scaleType="fitXY"
+            android:onClick="curly3Clicked"
+            app:srcCompat="@drawable/curly3"
+            android:layout_marginRight="0dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp"
+            app:layout_constraintLeft_toRightOf="@+id/imageView95"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.125"
+            tools:layout_editor_absoluteX="241dp" />
+
+        <ImageView
+            android:id="@+id/imageView97"
+            android:layout_width="120dp"
+            android:layout_height="139dp"
+            android:scaleType="fitXY"
+            android:onClick="curly4Clicked"
+            app:srcCompat="@drawable/curly4"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView94" />
+
+        <ImageView
+            android:id="@+id/imageView98"
+            android:layout_width="112dp"
+            android:layout_height="142dp"
+            android:scaleType="fitXY"
+            android:onClick="curly5Clicked"
+            app:srcCompat="@drawable/curly5"
+            app:layout_constraintLeft_toRightOf="@+id/imageView97"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="13dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView95" />
+
+        <ImageView
+            android:id="@+id/imageView99"
+            android:layout_width="114dp"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:onClick="curly6Clicked"
+            app:srcCompat="@drawable/curly6"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView96"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/imageView98"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView100"
+            android:layout_width="122dp"
+            android:layout_height="139dp"
+            android:scaleType="fitXY"
+            android:onClick="curly7Clicked"
+            app:srcCompat="@drawable/braids7"
+            android:layout_marginTop="14dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView97"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView101"
+            android:layout_width="114dp"
+            android:layout_height="139dp"
+            android:scaleType="fitXY"
+            android:onClick="curly8Clicked"
+            app:srcCompat="@drawable/braids8"
+            android:layout_marginTop="11dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView98"
+            app:layout_constraintLeft_toRightOf="@+id/imageView100"
+            android:layout_marginLeft="8dp" />
+
+        <ImageView
+            android:id="@+id/imageView102"
+            android:layout_width="122dp"
+            android:layout_height="139dp"
+            android:scaleType="fitXY"
+            android:onClick="curly9Clicked"
+            app:srcCompat="@drawable/braids9"
+            android:layout_marginTop="13dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView99"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/imageView101"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView103"
+            android:layout_width="126dp"
+            android:layout_height="148dp"
+            android:scaleType="fitXY"
+            android:onClick="curly10Clicked"
+            app:srcCompat="@drawable/curly10"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView100" />
+
+        <ImageView
+            android:id="@+id/imageView104"
+            android:layout_width="115dp"
+            android:layout_height="145dp"
+            android:scaleType="fitXY"
+            android:onClick="curly11Clicked"
+            app:srcCompat="@drawable/curly11"
+            app:layout_constraintLeft_toRightOf="@+id/imageView103"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView101" />
+
+        <ImageView
+            android:id="@+id/imageView105"
+            android:layout_width="116dp"
+            android:layout_height="145dp"
+            android:scaleType="fitXY"
+            android:onClick="curly12Clicked"
+            app:srcCompat="@drawable/curly12"
+            android:layout_marginRight="-33dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView102"
+            app:layout_constraintLeft_toRightOf="@+id/imageView104"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView106"
+            android:layout_width="127dp"
+            android:layout_height="151dp"
+            android:scaleType="fitXY"
+            android:onClick="curly13Clicked"
+            app:srcCompat="@drawable/curly13"
+            android:layout_marginLeft="-9dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView103" />
+
+        <ImageView
+            android:id="@+id/imageView107"
+            android:layout_width="111dp"
+            android:layout_height="149dp"
+            android:scaleType="fitXY"
+            android:onClick="curly14Clicked"
+            app:srcCompat="@drawable/curly14"
+            app:layout_constraintLeft_toRightOf="@+id/imageView106"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="9dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView104" />
+
+        <ImageView
+            android:id="@+id/imageView108"
+            android:layout_width="114dp"
+            android:layout_height="145dp"
+            android:scaleType="fitXY"
+            android:onClick="curly15Clicked"
+            app:srcCompat="@drawable/curly15"
+            android:layout_marginTop="11dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView105"
+            android:layout_marginRight="-21dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/imageView107"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.266" />
+
+        <ImageView
+            android:id="@+id/imageView109"
+            android:layout_width="123dp"
+            android:layout_height="142dp"
+            android:scaleType="fitXY"
+            android:onClick="curly16Clicked"
+            app:srcCompat="@drawable/curly16"
+            android:layout_marginLeft="-27dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="11dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView106" />
+
+        <ImageView
+            android:id="@+id/imageView110"
+            android:layout_width="111dp"
+            android:layout_height="146dp"
+            android:scaleType="fitXY"
+            android:onClick="curly17Clicked"
+            app:srcCompat="@drawable/curly17"
+            app:layout_constraintLeft_toRightOf="@+id/imageView109"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView107"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.042" />
+
+        <ImageView
+            android:id="@+id/imageView111"
+            android:layout_width="113dp"
+            android:layout_height="153dp"
+            android:scaleType="fitXY"
+            android:onClick="curly18Clicked"
+            app:srcCompat="@drawable/curly18"
+            android:layout_marginRight="-43dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView108"
+            app:layout_constraintLeft_toRightOf="@+id/imageView110"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.266"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView112"
+            android:layout_width="123dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:onClick="curly19Clicked"
+            app:srcCompat="@drawable/curly19"
+            android:layout_marginLeft="-15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView109"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.0" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

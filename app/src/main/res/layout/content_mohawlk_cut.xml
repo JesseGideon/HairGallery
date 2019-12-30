@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hpuser.hairgallery.MohawlkCut"
+    tools:showIn="@layout/activity_mohawlk_cut">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="115dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-10dp"
+            android:scaleType="fitXY"
+            android:onClick="onclickMohawk1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:srcCompat="@drawable/mohawk1replaced"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="112dp"
+            android:layout_height="129dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMohawk2"
+            app:srcCompat="@drawable/mohawk2replaced"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp"
+            app:layout_constraintLeft_toRightOf="@+id/imageView4"
+            android:layout_marginLeft="9dp" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="118dp"
+            android:layout_height="129dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoawk3"
+            app:srcCompat="@drawable/mohawk3replaced"
+            android:layout_marginRight="-44dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="2dp"
+            app:layout_constraintLeft_toRightOf="@+id/imageView37"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintHorizontal_bias="0.925" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="119dp"
+            android:layout_height="136dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk4"
+            app:srcCompat="@drawable/mohawk4replaced"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="110dp"
+            android:layout_height="135dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk5"
+            app:srcCompat="@drawable/mohawk5replaced"
+            app:layout_constraintLeft_toRightOf="@+id/imageView45"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="117dp"
+            android:layout_height="134dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk6"
+            app:srcCompat="@drawable/mohawk6relaced"
+            android:layout_marginRight="-79dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="7dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView38"
+            app:layout_constraintLeft_toRightOf="@+id/imageView46"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="117dp"
+            android:layout_height="134dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk7"
+            app:srcCompat="@drawable/mohawk7repalaced"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView45" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="112dp"
+            android:layout_height="132dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk8"
+            app:srcCompat="@drawable/mohawk8replaced"
+            app:layout_constraintLeft_toRightOf="@+id/imageView48"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="7dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView46" />
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="117dp"
+            android:layout_height="136dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk9"
+            app:srcCompat="@drawable/mohawk9"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView47"
+            app:layout_constraintLeft_toRightOf="@+id/imageView49"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="119dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk10"
+            app:srcCompat="@drawable/mohawk10"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView48" />
+
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="117dp"
+            android:layout_height="128dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk11"
+            app:srcCompat="@drawable/mohawk11replaced"
+            app:layout_constraintLeft_toRightOf="@+id/imageView51"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView49" />
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="117dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMohawk12"
+            app:srcCompat="@drawable/mohawk12"
+            android:layout_marginRight="-40dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView50"
+            app:layout_constraintLeft_toRightOf="@+id/imageView52"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="121dp"
+            android:layout_height="142dp"
+            android:onClick="onClickMoahawk13"
+            app:srcCompat="@drawable/mohawk13replaced"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="7dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView51" />
+
+        <ImageView
+            android:id="@+id/imageView55"
+            android:layout_width="116dp"
+            android:layout_height="143dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk14"
+            app:layout_constraintLeft_toRightOf="@+id/imageView54"
+            app:layout_constraintTop_toBottomOf="@+id/imageView52"
+            app:srcCompat="@drawable/mohawk14" />
+
+        <ImageView
+            android:id="@+id/imageView56"
+            android:layout_width="116dp"
+            android:layout_height="142dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk15"
+            app:srcCompat="@drawable/mohawk15replaced"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="7dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView53"
+            app:layout_constraintLeft_toRightOf="@+id/imageView55"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView57"
+            android:layout_width="116dp"
+            android:layout_height="129dp"
+            android:scaleType="fitXY"
+            android:onClick="SixtenClick"
+            app:srcCompat="@drawable/mohawk16"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView54" />
+
+        <ImageView
+            android:id="@+id/imageView58"
+            android:layout_width="116dp"
+            android:layout_height="132dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk17"
+            app:srcCompat="@drawable/mohawk17"
+            app:layout_constraintLeft_toRightOf="@+id/imageView57"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView55" />
+
+        <ImageView
+            android:id="@+id/imageView59"
+            android:layout_width="116dp"
+            android:layout_height="132dp"
+            android:scaleType="fitXY"
+            android:onClick="onClickMoahawk18"
+            app:srcCompat="@drawable/mohawk18"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView56"
+            app:layout_constraintLeft_toRightOf="@+id/imageView58"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView60"
+            android:layout_width="109dp"
+            android:layout_height="132dp"
+            android:scaleType="fitXY"
+            android:onClick="onClick19Img"
+            app:srcCompat="@drawable/mohawk19"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="11dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView57" />
+
+        <ImageView
+            android:id="@+id/imageView61"
+            android:layout_width="113dp"
+            android:layout_height="129dp"
+            android:scaleType="fitXY"
+            android:onClick="onclick20"
+            app:srcCompat="@drawable/mohawk20replaced"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView58"
+            app:layout_constraintLeft_toRightOf="@+id/imageView60"
+            android:layout_marginLeft="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView62"
+            android:layout_width="112dp"
+            android:layout_height="127dp"
+            android:scaleType="fitXY"
+            android:onClick="onclick21Img"
+            app:srcCompat="@drawable/mohawk21"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView59"
+            app:layout_constraintLeft_toRightOf="@+id/imageView61"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView63"
+            android:layout_width="115dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:onClick="onclick22img"
+            app:srcCompat="@drawable/mohawk22"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="-8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView60"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="1.0" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

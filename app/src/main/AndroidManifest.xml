@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hpuser.hairgallery">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mynewlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BoysCollection"
+            android:label="Men&apos;s Collection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".girlsCollection"
+            android:label="Lady&apos;s Collection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeSample"
+            android:label="@string/title_activity_home_sample"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Low_Cut"
+            android:label="@string/title_activity_low__cut"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RoundCut"
+            android:label="@string/title_activity_round_cut"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MohawlkCut"
+            android:label="@string/title_activity_mohawlk_cut"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Braids"
+            android:label="@string/title_activity_braids"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CurlyCrocket"
+            android:label="@string/title_activity_curly_crocket"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Updo"
+            android:label="@string/title_activity_updo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MohawkGirls"
+            android:label="@string/title_activity_mohawk_girls"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fixing"
+            android:label="@string/title_activity_fixing"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Others"
+            android:label="@string/title_activity_others"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PagerLowCut" />
+        <activity android:name=".Pager2LowCut" />
+        <activity android:name=".Pager3LowCut" />
+        <activity android:name=".PagerMohawkGuys" />
+        <activity android:name=".Pager4LowCut" />
+        <activity android:name=".Pager5LowCut" />
+        <activity android:name=".Pager6LowCut" />
+        <activity android:name=".Pager7LowCut" />
+        <activity android:name=".Pager8LowCut" />
+        <activity android:name=".Pager9LowCut" />
+        <activity android:name=".Pager10LowCut" />
+        <activity android:name=".Pager11LowCut" />
+        <activity android:name=".Pager12LowCut" />
+        <activity android:name=".PagerRoundCut" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Pager2RoundCut" />
+        <activity android:name=".Pager3RoundCut" />
+        <activity android:name=".Pager4RoundCut" />
+        <activity android:name=".Pager5RoundCut" />
+        <activity android:name=".Pager6RoundCut" />
+        <activity android:name=".Pager7RoundCut" />
+        <activity android:name=".Pager8RoundCut" />
+        <activity android:name=".Pager9RoundCut" />
+        <activity android:name=".Pager10RoundCut" />
+        <activity android:name=".Pager11RoundCut" />
+        <activity android:name=".Pager12RoundCut" />
+        <activity android:name=".Pager13RoundCut" />
+        <activity android:name=".Pager14RoundCut" />
+        <activity android:name=".Pager15RoundCut" />
+        <activity android:name=".Pager16RoundCut" />
+        <activity android:name=".Pager17RoundCut" />
+        <activity android:name=".Pager18RoundCut" />
+        <activity android:name=".Pager19RoundCut" />
+        <activity android:name=".Pager20RoundCut" />
+        <activity android:name=".Pager21RoundCut" />
+        <activity android:name=".Pager22RoundCut" />
+        <activity android:name=".Pager23RoundCut" />
+        <activity android:name=".PagerMohawkGuys2" />
+        <activity android:name=".PagerMohawkGuys3" />
+        <activity android:name=".PagerMohawkGuys4" />
+        <activity android:name=".PagerMohawkGuys5" />
+        <activity android:name=".PagerMohawkGuys6" />
+        <activity android:name=".PagerMohawkGuys7" />
+        <activity android:name=".PagerMohawkGuys8" />
+        <activity android:name=".PagerMohawkGuys9" />
+        <activity android:name=".PagerMohawkGuys10" />
+        <activity android:name=".PagerMohawkGuys11" />
+        <activity android:name=".PagerMohawkGuys12" />
+        <activity android:name=".PagerMohawkGuys13" />
+        <activity android:name=".PagerMohawkGuys14" />
+        <activity android:name=".PagerMohawkGuys15" />
+        <activity android:name=".PagerMohawkGuys16" />
+        <activity android:name=".PagerMohawkGuys17" />
+        <activity android:name=".PagerMohawkGuys18" />
+        <activity android:name=".PagerMohawkGuysSixteen" />
+        <activity android:name=".PagerMohawkGuys19" />
+        <activity android:name=".PagerMohawkGuys20" />
+        <activity android:name=".PagerMohawkGuys21" />
+        <activity android:name=".PagerMohawkGuys22" />
+        <activity android:name=".PagerOthersGirls" />
+        <activity android:name=".PagerOtherGirls1" />
+        <activity android:name=".PagerOthersGirls2" />
+        <activity android:name=".PagerOthersGirls3" />
+        <activity android:name=".PagerOthersGirls4" />
+        <activity android:name=".PagerMohawkGirls" />
+        <activity android:name=".PagerMohawkGirls2" />
+        <activity android:name=".PagerMohawkGirls3" />
+        <activity android:name=".PagerMohawkGirls4" />
+        <activity android:name=".PagerMohawkGirls5" />
+        <activity android:name=".PagerMohawkGirls6" />
+        <activity android:name=".PagerMohawkGirls7" />
+        <activity android:name=".PagerMohawkGirls8" />
+        <activity android:name=".PagerMohawkGirls9" />
+        <activity android:name=".PagerMohawkGirls10" />
+        <activity android:name=".PagerMohawkGirls11" />
+        <activity android:name=".PagerMohawkGirls12" />
+        <activity android:name=".PagerMohawkGirls13" />
+        <activity android:name=".PagerMohawkGirls14" />
+        <activity android:name=".PagerMohawkGirls15" />
+        <activity android:name=".PagerFixing" />
+        <activity android:name=".PagerFixing2" />
+        <activity android:name=".PagerFixing3" />
+        <activity android:name=".PagerFixing4" />
+        <activity android:name=".PagerFixing5" />
+        <activity android:name=".PagerFixing6" />
+        <activity android:name=".PagerFixing7" />
+        <activity android:name=".PagerFixing8" />
+        <activity android:name=".PagerFixing9" />
+        <activity android:name=".PagerUpdo" />
+        <activity android:name=".PagerUpdo2" />
+        <activity android:name=".PagerUpdo3" />
+        <activity android:name=".PagerUpdo4" />
+        <activity android:name=".PagerUpdo5" />
+        <activity android:name=".PagerUpdo6" />
+        <activity android:name=".PagerUpdo7" />
+        <activity android:name=".PagerUpdo8" />
+        <activity android:name=".PagerUpdo9" />
+        <activity android:name=".PagerUpdo10" />
+        <activity android:name=".PagerUpdo11" />
+        <activity android:name=".PagerUpdo12" />
+        <activity android:name=".PagerUpdo13" />
+        <activity android:name=".PagerUpdo14" />
+        <activity android:name=".PagerUpdo15" />
+        <activity android:name=".PagerUpdo16" />
+        <activity android:name=".PagerUpdo17" />
+        <activity android:name=".PagerCurlyCrocket" />
+        <activity android:name=".PagerCurlyCrocket2" />
+        <activity android:name=".PagerCurlyCrocket3" />
+        <activity android:name=".PagerCurlyCrocket4" />
+        <activity android:name=".PagerCurlyCrocket5" />
+        <activity android:name=".PagerCurlyCrocket6" />
+        <activity android:name=".PagerCurlyCrocket7" />
+        <activity android:name=".PagerCurlyCrocket8" />
+        <activity android:name=".PagerCurlyCrocket9" />
+        <activity android:name=".PagerCurlyCrocket10" />
+        <activity android:name=".PagerCurlyCrocket11" />
+        <activity android:name=".PagerCurlyCrocket12" />
+        <activity android:name=".PagerCurlyCrocket13" />
+        <activity android:name=".PagerCurlyCrocket14" />
+        <activity android:name=".PagerCurlyCrocket15" />
+        <activity android:name=".PagerCurlyCrocket16" />
+        <activity android:name=".PagerCurlyCrocket17" />
+        <activity android:name=".PagerCurlyCrocket18" />
+        <activity android:name=".PagerCurlyCrocket19" />
+        <activity android:name=".PagerBraids" />
+        <activity android:name=".PagerBraids2" />
+        <activity android:name=".PagerBraids3" />
+        <activity android:name=".PagerBraids4" />
+        <activity android:name=".PagerBraids5" />
+        <activity android:name=".PagerBraids6" />
+        <activity android:name=".PagerBraids7" />
+        <activity android:name=".PagerBraids8" />
+        <activity android:name=".PagerBraids9" />
+        <activity android:name=".PagerBraids10" />
+        <activity android:name=".PagerBraids11" />
+        <activity android:name=".PagerBraids12" />
+        <activity android:name=".PagerBraids13" />
+        <activity android:name=".PagerBraids14" />
+        <activity android:name=".PagerBraids15" />
+        <activity android:name=".PagerBraids16" />
+        <activity android:name=".PagerBraids17" />
+        <activity android:name=".PagerBraids18" />
+        <activity android:name=".PagerBraids19" />
+        <activity android:name=".PagerBraids20" />
+        <activity android:name=".PagerBraids21" />
+        <activity android:name=".PagerBraids22" />
+        <activity android:name=".PagerBraids23" />
+        <activity android:name=".PagerBraids24"></activity>
+    </application>
+
+</manifest>
